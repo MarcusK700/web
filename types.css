@@ -1,0 +1,66 @@
+/*
+Colour scheme
+main: #519331
+light: #85C965
+white: #B8ED9E
+dark: #295D0F
+main text: #0D2700
+http://paletton.com/#uid=12G0u0kllllaDKdfZtdqHdtw75B
+*/
+/*https://codepen.io/thevjm/pen/qZWZwL
+https://makitweb.com/html-how-to-show-text-above-image-on-hover/*/
+
+
+section img {
+    background-color: #519331;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+} 
+
+#images {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+  
+#images > img {
+    float: left;
+    width: 45%;
+    margin: 1.66%;
+}
+
+.text {
+    position: relative;
+    width: 300px;
+    height: 310px;
+    margin: 20px;
+    float: left;
+}
+
+.text div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #85C965;
+    color: #0D2700;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 150px;
+    font-size: xx-large;
+}
+
+.text:hover {
+    cursor: pointer;
+}
+
+.text:hover div {
+    width: 300px;
+    visibility: visible;
+    opacity: 0.7; 
+}
