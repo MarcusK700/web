@@ -1,0 +1,23 @@
+/*
+Colour scheme
+main: #519331
+light: #85C965
+white: #B8ED9E
+dark: #295D0F
+main text: #0D2700
+http://paletton.com/#uid=12G0u0kllllaDKdfZtdqHdtw75B
+*/
+/*Referance material https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+
+.form {
+    background-color: #519331;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+

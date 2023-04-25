@@ -1,0 +1,25 @@
+/*
+Colour scheme
+main: #519331
+light: #85C965
+white: #B8ED9E
+dark: #295D0F
+main text: #0D2700
+http://paletton.com/#uid=12G0u0kllllaDKdfZtdqHdtw75B
+*/
+
+section img {
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+section h4 {
+    float: left;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+section {
+    margin-top: auto;
+
+}
